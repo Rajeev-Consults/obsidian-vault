@@ -1,16 +1,36 @@
-# services-moc
+# Services MOC
 
-## consulting
--
+## Business Systems
 
-## project-management
--
+- [[service-process-mapping]]
+    
+- [[service-workflow-design]]
+    
+- [[service-sop-creation]]
+    
+- [[service-systems-implementation]]
+    
 
-## systems-analysis
--
+## Knowledge Systems
 
-## operations-support
--
+- [[service-knowledge-audit]]
+    
+- [[service-vault-architecture]]
+    
+- [[service-documentation-structuring]]
+    
 
-## documentation
--
+## AI-Assisted Systems
+
+- [[service-ai-readiness-assessment]]
+    
+- [[service-ai-workflow-design]]
+    
+- [[service-prompt-library-design]]
+    
+
+---
+
+## Service Delivery Framework
+
+- [[service-delivery-framework]]
