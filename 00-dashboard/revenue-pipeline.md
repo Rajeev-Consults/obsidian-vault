@@ -1,16 +1,22 @@
-# revenue-pipeline
+# Revenue Pipeline
 
-## leads
+## Leads
+
 -
 
-## active-proposals
+## Active Proposals
+
 -
 
-## expected-revenue
+## Expected Revenue
+
 -
 
-## follow-ups
+## Follow-Ups
+
 -
 
-## closed-projects
+## Closed Projects
+
+-
 -

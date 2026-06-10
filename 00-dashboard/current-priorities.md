@@ -1,16 +1,28 @@
-# current-priorities
+# Current Priorities
 
-## immediate-focus
--
+## Immediate Focus
 
-## active-projects
--
+- [ ] Complete Service Knowledge Audit
+- [ ] Define Service Catalog
+- [ ] Prepare LinkedIn Assets
 
-## critical-actions
--
+## Active Projects
 
-## blockers
--
+- [[service-knowledge-audit]]
+- [[linkedin-rebuild]]
+- [[upwork-setup]]
 
-## quick-wins
--
+## Critical Actions
+
+- [ ] Finalize service definitions
+- [ ] Define deliverables
+- [ ] Prepare positioning statements
+
+## Blockers
+
+- LinkedIn security verification pending
+
+## Quick Wins
+
+- [ ] Create Contra profile
+- [ ] Update launch tracker
