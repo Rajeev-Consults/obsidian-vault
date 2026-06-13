@@ -1,0 +1,6 @@
+- Resolve any remaining verification/security issues
+- Publish first LinkedIn post
+- Publish second LinkedIn post
+- Add featured section assets
+- Link JayaSwara website when available
+- Review profile after website launch
