@@ -108,3 +108,11 @@ Phase 1 completed successfully.
 Website foundation verified.
 
 Ready to begin Phase 2 - Core Content.
+
+2026-06-15
+
+Decision:
+Create and lock a global design system before implementing Phase 2 pages.
+
+Reason:
+Ensure consistency across typography, colors, spacing, buttons and layout.
