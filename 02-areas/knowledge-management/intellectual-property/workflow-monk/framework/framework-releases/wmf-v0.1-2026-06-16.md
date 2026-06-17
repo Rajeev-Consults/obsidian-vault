@@ -133,3 +133,46 @@ The Workflow Monk Framework is the methodology.
 Jayaswara applies, teaches, refines and evolves the Workflow Monk Framework across different domains, industries and contexts.
 
 Where Ideas Become Systems.
+
+## Framework Clarifications (17-06-2026)
+
+### Nature
+
+Workflow Monk is a systems transformation methodology.
+
+It is not:
+
+- a productivity framework
+- a PKM framework
+- a note-taking framework
+
+### Universal Asset Principle
+
+The framework operates on any transformable asset including:
+
+- ideas
+- information
+- knowledge
+- workflows
+- operations
+- services
+- businesses
+- intellectual property
+
+### Progression Principle
+
+Capture → Clarify → Organize → Systematize → Scale
+
+The progression is directional and sequential.
+
+### Commercial Entry Principle
+
+Engagements may begin at any mode depending on client maturity and project scope.
+
+Once an engagement begins, progression follows the methodology sequence.
+
+Backward movement constitutes a separate assessment or engagement.
+
+### Controlled Adaptability
+
+The methodology allows practical adaptation to client context while preserving overall progression integrity.
