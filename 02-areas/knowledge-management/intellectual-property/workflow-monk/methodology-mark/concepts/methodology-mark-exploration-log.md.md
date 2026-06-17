@@ -81,13 +81,13 @@ Score mentally against:
 
 ## Date
 
-DD-MM-YYYY
+17-06-2026
 
 ---
 
 ## Concept Name
 
-Name:
+Name: Workflow Monk icon/seal
 
 Source:  
 (ChatGPT / Manual Sketch / AI Tool / External Reference / Other)
@@ -100,6 +100,7 @@ Considered / Maybe / Shortlisted / Rejected
 ## Image
 
 Paste image or link here.
+![[Pasted image 20260617135914.png]]
 
 ---
 
