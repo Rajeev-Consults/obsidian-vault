@@ -19,7 +19,11 @@ Version:
 
 # Purpose
 
-Why does this initiative exist?
+The AI Organization defines the foundational operating model for JayaSwara's operational ecosystem. It establishes the principles, governance, capabilities, organizational structure, and relationships that enable humans, AI specialists, and technology to operate as a unified system.
+
+The AI Organization is technology-neutral and platform-independent. It defines enduring organizational capabilities rather than specific tools, models, or implementations. This foundation guides the design of the GPT Team and the Automation layer while ensuring that the operational ecosystem remains adaptable as people, AI models, and technologies evolve.
+
+Its purpose is to preserve organizational identity through stable principles while enabling continuous improvement through flexible implementation.
 
 ---
 
