@@ -2,7 +2,7 @@
 
 ## Purpose
 
----
+Define a single organizational capability as an independent, reusable building block within the JayaSwara operational ecosystem. Capability definitions provide the common specification from which services, SOPs, AI specialists, automations, workflows, and operational procedures can be developed.
 
 ## Scope
 
