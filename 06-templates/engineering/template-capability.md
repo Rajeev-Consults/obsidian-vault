@@ -1,0 +1,121 @@
+# <Capability Name>
+
+## Purpose
+
+---
+
+# Document Governance
+
+## Lifecycle
+
+- [ ] Draft
+- [ ] Architecture Review
+- [ ] Human Review
+- [ ] Revision
+- [ ] Accepted
+- [ ] Promoted
+- [ ] Versioned
+- [ ] Maintained
+
+## Version Control
+
+Current Version:
+
+Previous Version:
+
+Approved Version:
+
+Effective Date:
+
+## Review Summary
+
+Architecture Reviewer:
+
+Human Reviewer:
+
+Next Review:
+
+Promotion Target:
+
+Review Notes:
+
+---
+
+## Guiding Principles
+
+---
+
+## Responsibilities
+
+---
+
+## Inputs
+
+---
+
+## Activities
+
+---
+
+## Outputs
+
+---
+
+## Deliverables
+
+---
+
+## Entry Criteria
+
+---
+
+## Exit Criteria
+
+---
+
+## Quality Standards
+
+---
+
+## Success Metrics
+
+---
+
+## Roles & Ownership
+
+---
+
+## AI Opportunities
+
+---
+
+## Automation Opportunities
+
+---
+
+## Supporting Assets
+
+---
+
+## Related Notes
+
+---
+
+# Section Governance
+
+| Section | Reviewed | Accepted | Promoted |
+|----------|:--------:|:--------:|:--------:|
+| Purpose | ☐ | ☐ | ☐ |
+| Guiding Principles | ☐ | ☐ | ☐ |
+| Responsibilities | ☐ | ☐ | ☐ |
+| Inputs | ☐ | ☐ | ☐ |
+| Activities | ☐ | ☐ | ☐ |
+| Outputs | ☐ | ☐ | ☐ |
+| Deliverables | ☐ | ☐ | ☐ |
+| Entry Criteria | ☐ | ☐ | ☐ |
+| Exit Criteria | ☐ | ☐ | ☐ |
+| Quality Standards | ☐ | ☐ | ☐ |
+| Success Metrics | ☐ | ☐ | ☐ |
+| Roles & Ownership | ☐ | ☐ | ☐ |
+| AI Opportunities | ☐ | ☐ | ☐ |
+| Automation Opportunities | ☐ | ☐ | ☐ |

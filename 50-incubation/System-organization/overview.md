@@ -10,7 +10,7 @@ Its purpose is to preserve organizational consistency through stable principles 
 
 ---
 
-# Document Governance Metadata
+# Document Governance
 
 ## Lifecycle
 
@@ -22,6 +22,28 @@ Its purpose is to preserve organizational consistency through stable principles 
 - [ ] Promoted
 - [ ] Versioned
 - [ ] Maintained
+
+## Version Control
+
+Current Version:
+
+Previous Version:
+
+Approved Version:
+
+Effective Date:
+
+## Review Summary
+
+Architecture Reviewer:
+
+Human Reviewer:
+
+Next Review:
+
+Promotion Target:
+
+Review Notes:
 
 ## Review Summary
 
