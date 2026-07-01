@@ -4,6 +4,10 @@
 
 ---
 
+## Scope
+
+Defines the boundaries of the capability, including what it includes, excludes, and its relationship to adjacent organizational capabilities.
+
 # Document Governance
 
 ## Lifecycle
