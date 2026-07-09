@@ -3,7 +3,12 @@
 
 
 ---
+# Document Identity
 
+Type: Operational
+Authority: Permanent
+Lifecycle: Active
+Primary Review: Architecture Review Checklist
 # Document Governance
 
 ## Lifecycle
@@ -31,7 +36,7 @@ Effective Date:
 
 Architecture Reviewer:
 
-Human Reviewer:
+Operational Reviewer:
 
 Next Review:
 
@@ -39,17 +44,6 @@ Promotion Target:
 
 Review Notes:
 
-## Review Summary
-
-Architecture Reviewer:
-
-Human Reviewer:
-
-Current Version:
-
-Next Review:
-
-Promotion Target:
 
 ---
 
