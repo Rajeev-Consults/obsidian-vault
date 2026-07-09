@@ -1,98 +1,362 @@
----
-Status:
-Owner:
-Created:
-Last Updated:
-Review Date:
-Priority:
-
-Destination:
-
-Promotion Criteria:
-
-Promotion Date:
-
-Related Initiatives:
-
-Version:
----
-
 # Purpose
 
-Why does this initiative exist?
+
+
+---
+
+# Document Governance
+
+## Lifecycle
+
+- [ ] Draft
+- [ ] Architecture Review
+- [ ] Human Review
+- [ ] Revision
+- [ ] Accepted
+- [ ] Promoted
+- [ ] Versioned
+- [ ] Maintained
+
+## Version Control
+
+Current Version:
+
+Previous Version:
+
+Approved Version:
+
+Effective Date:
+
+## Review Summary
+
+Architecture Reviewer:
+
+Human Reviewer:
+
+Next Review:
+
+Promotion Target:
+
+Review Notes:
+
+## Review Summary
+
+Architecture Reviewer:
+
+Human Reviewer:
+
+Current Version:
+
+Next Review:
+
+Promotion Target:
 
 ---
 
 # Capture
 
-Raw ideas.
+## Purpose
 
-Observations.
+Capture knowledge without interpretation or evaluation.
 
-Questions.
+## Guiding Principles
 
-Research.
+- Relevance before collection.
+- Preserve original context.
+- Preserve source traceability.
+- One responsibility per stage.
+- Capture potential rather than conclusions.
+- Technology independence.
 
-Links.
+## Responsibilities
+
+- Record ideas.
+- Record observations.
+- Record questions.
+- Capture research.
+- Preserve references.
+- Preserve supporting material.
+
+## Inputs
+
+- Ideas
+- Research
+- Conversations
+- Meetings
+- Documents
+- External sources
+- Observations
+
+## Activities
+
+- Capture
+- Record
+- Preserve
+- Reference
+
+## Outputs
+
+- Raw knowledge
+- Research repository
+- Observation log
+- Idea inventory
+
+## Deliverables
+
+- Capture Register
+- Research Log
+- Source Register
+- Observation Repository
+
+## Entry Criteria
+
+Knowledge requiring preservation.
+
+## Exit Criteria
+
+Knowledge is captured, traceable, and available for clarification.
 
 ---
 
 # Clarify
 
-What have we learned?
+## Purpose
 
-Important decisions.
+Transform captured knowledge into shared understanding.
 
-Definitions.
+## Guiding Principles
 
-Scope.
+- Clarity before complexity.
+- Separate facts from assumptions.
+- Decisions must be traceable.
+- Resolve ambiguity before organization.
+
+## Responsibilities
+
+- Define terminology.
+- Establish scope.
+- Resolve ambiguity.
+- Document assumptions.
+- Record architectural decisions.
+
+## Inputs
+
+Outputs from Capture.
+
+## Activities
+
+- Define
+- Interpret
+- Evaluate
+- Decide
+
+## Outputs
+
+- Definitions
+- Decisions
+- Constraints
+- Principles
+- Scope
+
+## Deliverables
+
+- Decision Log
+- Definition Register
+- Scope Statement
+- Architectural Notes
+
+## Entry Criteria
+
+Captured information requiring interpretation.
+
+## Exit Criteria
+
+Knowledge is clearly understood and ready for organization.
 
 ---
 
 # Organize
 
-Structure.
+## Purpose
 
-Candidate folders.
+Create a coherent, scalable organizational structure.
 
-Relationships.
+## Guiding Principles
 
-Dependencies.
+- Capability before implementation.
+- Modular organization.
+- Stable architecture.
+- Explicit relationships.
+- Single responsibility.
 
-Possible destinations.
+## Responsibilities
+
+- Group related knowledge.
+- Establish relationships.
+- Identify dependencies.
+- Prepare permanent destinations.
+
+## Inputs
+
+Outputs from Clarify.
+
+## Activities
+
+- Categorize
+- Relate
+- Structure
+- Classify
+
+## Outputs
+
+- Organized knowledge
+- Folder proposals
+- Relationship maps
+- Knowledge architecture
+
+## Deliverables
+
+- Folder Structure
+- Taxonomy
+- Relationship Map
+- Navigation Framework
+
+## Entry Criteria
+
+Clarified knowledge.
+
+## Exit Criteria
+
+Knowledge is structured and ready for systemization.
 
 ---
 
 # Systematize
 
-Final framework.
+## Purpose
 
-Workflow.
+Transform organized knowledge into repeatable organizational systems.
 
-Operating principles.
+## Guiding Principles
 
-Templates.
+- Identity before implementation.
+- Process before platform.
+- Workflow before software.
+- Structure before automation.
+- Human where valuable.
+- Continuous improvement.
 
-Standards.
+## Responsibilities
+
+- Define standards.
+- Create templates.
+- Establish governance.
+- Document workflows.
+- Standardize practices.
+
+## Inputs
+
+Outputs from Organize.
+
+## Activities
+
+- Standardize
+- Document
+- Govern
+- Template
+- Review
+
+## Outputs
+
+- Standards
+- Templates
+- SOPs
+- Governance
+- Workflows
+
+## Deliverables
+
+- Organizational Standards
+- Templates
+- Operating Procedures
+- Governance Framework
+
+## Entry Criteria
+
+Organized knowledge.
+
+## Exit Criteria
+
+Knowledge becomes repeatable and reusable.
 
 ---
 
 # Scale
 
-## Current Status
+## Purpose
 
-Capture
-Clarify
-Organize
-Systematize
-Ready for Promotion
-Promoted
-Archived
+Adopt validated knowledge across the operational ecosystem while enabling continuous improvement.
 
-## Promotion Notes
+## Guiding Principles
 
-Destination
+- Promote only validated knowledge.
+- Preserve architectural integrity.
+- Continuous learning.
+- Controlled evolution.
+- Reuse before reinvention.
 
-Related Notes
+## Responsibilities
 
-Lessons Learned
+- Review.
+- Approve.
+- Promote.
+- Maintain.
+- Improve.
+
+## Inputs
+
+Validated organizational systems.
+
+## Activities
+
+- Review
+- Promote
+- Maintain
+- Measure
+- Improve
+
+## Outputs
+
+- Organizational capability
+- Operational assets
+- Services
+- AI specialists
+- Automation opportunities
+
+## Deliverables
+
+- Promoted Standards
+- Service Assets
+- Operational Frameworks
+- Organizational Knowledge
+
+## Entry Criteria
+
+Validated systems ready for adoption.
+
+## Exit Criteria
+
+Knowledge is incorporated into the permanent operational ecosystem.
+
+---
+
+# Section Governance Metadata
+
+| Section | Reviewed | Accepted | Promoted |
+|----------|:--------:|:--------:|:--------:|
+| Purpose | ☐ | ☐ | ☐ |
+| Capture | ☐ | ☐ | ☐ |
+| Clarify | ☐ | ☐ | ☐ |
+| Organize | ☐ | ☐ | ☐ |
+| Systematize | ☐ | ☐ | ☐ |
+| Scale | ☐ | ☐ | ☐ |
