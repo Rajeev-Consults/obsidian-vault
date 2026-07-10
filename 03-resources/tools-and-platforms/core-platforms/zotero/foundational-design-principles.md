@@ -107,3 +107,23 @@ Technology
 ↓
 
 Tools
+
+
+---
+
+# Relationships
+
+## Governed By
+
+## Works With
+
+- [[repository-constitution]]
+
+## Enables
+
+- [[knowledge-taxonomy]]
+- [[storage-architecture]] 
+- [[technology-architecture]] 
+- [[connectivity]] 
+- [[ingestion-and-curation]] 
+- [[implementation-roadmap]]

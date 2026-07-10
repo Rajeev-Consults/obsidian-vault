@@ -360,3 +360,18 @@ Knowledge Platform becomes an integral organizational capability.
 | Organize    |    ☐     |    ☐     |    ☐     |
 | Systematize |    ☐     |    ☐     |    ☐     |
 | Scale       |    ☐     |    ☐     |    ☐     |
+
+---
+
+# Relationships
+
+## Governed By
+
+- [[foundational-design-principles]] 
+- [[repository-constitution]]
+ 
+## Works With
+
+- [[implementation-roadmap]]
+
+## Enables

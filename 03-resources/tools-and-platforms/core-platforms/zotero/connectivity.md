@@ -57,3 +57,19 @@ Applies to present and future integrations supporting the knowledge system.
 ## Design Objective
 
 Support efficient knowledge flow while preserving architectural independence.
+
+---
+# Relationships
+
+## Governed By
+
+- [[foundational-design-principles]]
+
+## Works With
+
+- [[technology-architecture]]
+
+## Enables
+
+- [[implementation-roadmap]]
+

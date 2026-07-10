@@ -64,3 +64,20 @@ Technologies under evaluation for future adoption.
 ## Design Objective
 
 Maintain a sustainable and adaptable technology foundation.
+
+---
+
+# Relationships
+
+## Governed By
+
+- [[foundational-design-principles]]
+
+## Works With
+
+- [[storage-architecture]] 
+- [[connectivity]]
+
+## Enables
+
+- [[implementation-roadmap]]

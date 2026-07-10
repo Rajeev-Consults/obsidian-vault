@@ -78,3 +78,20 @@ Archive
 ## Design Objective
 
 Continuously improve knowledge quality while preserving provenance and traceability.
+
+---
+
+# Relationships
+
+## Governed By
+
+- [[foundational-design-principles]] 
+- [[repository-constitution]]
+
+## Works With
+
+- [[knowledge-taxonomy]]
+
+## Enables
+
+- [[implementation-roadmap]]

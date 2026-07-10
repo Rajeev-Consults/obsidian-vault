@@ -48,3 +48,23 @@ Applies to bibliographic records, attachments, notes, metadata, and supporting r
 ## Design Objective
 
 Provide a portable, maintainable, and resilient storage architecture.
+
+---
+
+# Relationships
+
+## Governed By
+
+- [[foundational-design-principles]] 
+- [[repository-constitution]]
+
+
+## Works With
+
+- [[knowledge-taxonomy]] 
+- [[technology-architecture]]
+
+
+## Enables
+
+- [[connectivity]]

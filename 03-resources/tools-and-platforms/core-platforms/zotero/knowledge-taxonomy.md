@@ -59,3 +59,21 @@ Applies to all collections, classifications, metadata, and relationships.
 ## Objective
 
 Enable consistent organization, efficient discovery, and long-term maintainability.
+
+---
+
+# Relationships
+
+## Governed By
+
+- [[foundational-design-principles]] 
+- [[repository-constitution]]
+
+
+## Works With
+
+- [[storage-architecture]]
+
+## Enables
+
+- [[ingestion-and-curation]]

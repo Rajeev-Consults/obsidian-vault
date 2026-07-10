@@ -72,3 +72,21 @@ These responsibilities belong to other systems.
 The repository preserves knowledge.
 
 Other systems create value from knowledge.
+
+---
+
+# Relationships
+
+## Governed By
+
+- [[foundational-design-principles]]
+
+## Works With
+
+- [[overview]]
+
+## Enables
+
+- [[knowledge-taxonomy]] 
+- [[storage-architecture]] 
+- [[ingestion-and-curation]]
