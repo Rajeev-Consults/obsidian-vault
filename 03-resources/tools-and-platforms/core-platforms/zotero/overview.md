@@ -1,10 +1,3 @@
-# Purpose
-
-Provide the authoritative operational overview of the JayaSwara Knowledge Platform.
-
-This document serves as the primary entry point to the platform, describing its purpose, governance, lifecycle, architectural direction and implementation status while providing navigation to the supporting constitutional and operational Knowledge Objects.
-
----
 
 # Document Identity
 
@@ -15,6 +8,13 @@ Authority: Permanent
 Lifecycle: Active
 
 Primary Review: Architecture Review Checklist
+
+---
+# Purpose
+
+Provide the authoritative operational overview of the JayaSwara Knowledge Platform.
+
+This document serves as the primary entry point to the platform, describing its purpose, governance, lifecycle, architectural direction and implementation status while providing navigation to the supporting constitutional and operational Knowledge Objects.
 
 ---
 
