@@ -1,19 +1,28 @@
 # Purpose
 
+Provide the authoritative operational overview of the JayaSwara Knowledge Platform.
 
+This document serves as the primary entry point to the platform, describing its purpose, governance, lifecycle, architectural direction and implementation status while providing navigation to the supporting constitutional and operational Knowledge Objects.
 
 ---
+
 # Document Identity
 
 Type: Operational
+
 Authority: Permanent
+
 Lifecycle: Active
+
 Primary Review: Architecture Review Checklist
+
+---
+
 # Document Governance
 
 ## Lifecycle
 
-- [ ] Draft
+- [x] Draft
 - [ ] Architecture Review
 - [ ] Human Review
 - [ ] Revision
@@ -25,25 +34,34 @@ Primary Review: Architecture Review Checklist
 ## Version Control
 
 Current Version:
+0.1
 
 Previous Version:
+—
 
 Approved Version:
+—
 
 Effective Date:
+—
 
 ## Review Summary
 
 Architecture Reviewer:
+Principal Architecture Auditor (AI)
 
 Operational Reviewer:
+Rajeev
 
 Next Review:
+Upon completion of Step 0 – Foundational Design Principles
 
 Promotion Target:
+Permanent Knowledge Platform
 
 Review Notes:
 
+Initial operational overview created as the entry point for the Knowledge Platform constitutional project.
 
 ---
 
@@ -51,64 +69,63 @@ Review Notes:
 
 ## Purpose
 
-Capture knowledge without interpretation or evaluation.
+Capture the vision, objectives, scope and operational intent of the Knowledge Platform before architectural implementation.
 
 ## Guiding Principles
 
-- Relevance before collection.
-- Preserve original context.
-- Preserve source traceability.
-- One responsibility per stage.
-- Capture potential rather than conclusions.
-- Technology independence.
+- Capture organizational intent before implementation.
+- Preserve architectural context.
+- Maintain technology neutrality.
+- Capture long-term objectives before short-term implementation.
+- Preserve traceability of major architectural decisions.
+- Capture capability rather than features.
 
 ## Responsibilities
 
-- Record ideas.
-- Record observations.
-- Record questions.
-- Capture research.
-- Preserve references.
-- Preserve supporting material.
+- Capture platform objectives.
+- Capture organizational requirements.
+- Capture implementation scope.
+- Record architectural assumptions.
+- Preserve strategic intent.
+- Maintain traceability.
 
 ## Inputs
 
-- Ideas
-- Research
-- Conversations
-- Meetings
-- Documents
-- External sources
-- Observations
+- Knowledge Platform discussions
+- Workflow Monk methodology
+- Business vision
+- Obsidian architecture
+- AI architecture
+- Knowledge engineering discussions
 
 ## Activities
 
 - Capture
 - Record
 - Preserve
-- Reference
+- Consolidate
 
 ## Outputs
 
-- Raw knowledge
-- Research repository
-- Observation log
-- Idea inventory
+- Platform vision
+- Operational scope
+- Architectural direction
+- Implementation baseline
 
 ## Deliverables
 
-- Capture Register
-- Research Log
-- Source Register
-- Observation Repository
+- Platform Overview
+- Vision Statement
+- Scope Definition
+- Initial Architectural Context
 
 ## Entry Criteria
 
-Knowledge requiring preservation.
+Knowledge Platform initiative approved.
 
 ## Exit Criteria
 
-Knowledge is captured, traceable, and available for clarification.
+Platform purpose, scope and direction are sufficiently understood for constitutional definition.
 
 ---
 
@@ -116,22 +133,22 @@ Knowledge is captured, traceable, and available for clarification.
 
 ## Purpose
 
-Transform captured knowledge into shared understanding.
+Establish a common understanding of the Knowledge Platform and its role within the JayaSwara ecosystem.
 
 ## Guiding Principles
 
-- Clarity before complexity.
-- Separate facts from assumptions.
-- Decisions must be traceable.
-- Resolve ambiguity before organization.
+- Clarity before implementation.
+- Purpose before technology.
+- Capability before tools.
+- Shared understanding before execution.
 
 ## Responsibilities
 
-- Define terminology.
-- Establish scope.
+- Define platform terminology.
+- Establish architectural boundaries.
+- Clarify organizational objectives.
 - Resolve ambiguity.
-- Document assumptions.
-- Record architectural decisions.
+- Identify stakeholders.
 
 ## Inputs
 
@@ -140,32 +157,31 @@ Outputs from Capture.
 ## Activities
 
 - Define
+- Clarify
 - Interpret
-- Evaluate
-- Decide
+- Validate
 
 ## Outputs
 
-- Definitions
-- Decisions
-- Constraints
-- Principles
-- Scope
+- Shared understanding
+- Platform definition
+- Scope boundaries
+- Architectural assumptions
 
 ## Deliverables
 
-- Decision Log
-- Definition Register
+- Platform Definition
 - Scope Statement
-- Architectural Notes
+- Architectural Context
+- Stakeholder Understanding
 
 ## Entry Criteria
 
-Captured information requiring interpretation.
+Platform vision captured.
 
 ## Exit Criteria
 
-Knowledge is clearly understood and ready for organization.
+Platform purpose and organizational role are clearly understood.
 
 ---
 
@@ -173,22 +189,22 @@ Knowledge is clearly understood and ready for organization.
 
 ## Purpose
 
-Create a coherent, scalable organizational structure.
+Organize the Knowledge Platform into a coherent operational architecture.
 
 ## Guiding Principles
 
-- Capability before implementation.
-- Modular organization.
-- Stable architecture.
+- Stable organization.
 - Explicit relationships.
-- Single responsibility.
+- Capability-driven structure.
+- Minimal complexity.
+- Future scalability.
 
 ## Responsibilities
 
-- Group related knowledge.
+- Organize constitutional Knowledge Objects.
+- Organize operational Knowledge Objects.
+- Define navigation.
 - Establish relationships.
-- Identify dependencies.
-- Prepare permanent destinations.
 
 ## Inputs
 
@@ -197,31 +213,29 @@ Outputs from Clarify.
 ## Activities
 
 - Categorize
-- Relate
 - Structure
-- Classify
+- Relate
+- Organize
 
 ## Outputs
 
-- Organized knowledge
-- Folder proposals
-- Relationship maps
 - Knowledge architecture
+- Operational structure
+- Navigation framework
 
 ## Deliverables
 
-- Folder Structure
-- Taxonomy
-- Relationship Map
-- Navigation Framework
+- Platform Structure
+- Knowledge Object Map
+- Initial Navigation
 
 ## Entry Criteria
 
-Clarified knowledge.
+Platform understanding established.
 
 ## Exit Criteria
 
-Knowledge is structured and ready for systemization.
+Knowledge Platform structure prepared for constitutional implementation.
 
 ---
 
@@ -229,24 +243,23 @@ Knowledge is structured and ready for systemization.
 
 ## Purpose
 
-Transform organized knowledge into repeatable organizational systems.
+Establish repeatable governance for the Knowledge Platform.
 
 ## Guiding Principles
 
-- Identity before implementation.
-- Process before platform.
-- Workflow before software.
+- Governance before growth.
 - Structure before automation.
-- Human where valuable.
-- Continuous improvement.
+- Review before promotion.
+- Consistency before expansion.
+- Human-AI collaboration.
 
 ## Responsibilities
 
-- Define standards.
-- Create templates.
-- Establish governance.
-- Document workflows.
-- Standardize practices.
+- Define governance.
+- Standardize Knowledge Objects.
+- Apply Workflow Monk.
+- Support constitutional implementation.
+- Enable future automation.
 
 ## Inputs
 
@@ -255,33 +268,29 @@ Outputs from Organize.
 ## Activities
 
 - Standardize
-- Document
 - Govern
-- Template
 - Review
+- Implement
 
 ## Outputs
 
-- Standards
-- Templates
-- SOPs
-- Governance
-- Workflows
+- Governance model
+- Standardized operational practices
+- Architectural consistency
 
 ## Deliverables
 
-- Organizational Standards
-- Templates
-- Operating Procedures
-- Governance Framework
+- Knowledge Platform governance
+- Operational standards
+- Review framework
 
 ## Entry Criteria
 
-Organized knowledge.
+Operational structure established.
 
 ## Exit Criteria
 
-Knowledge becomes repeatable and reusable.
+Platform ready for constitutional development.
 
 ---
 
@@ -289,68 +298,65 @@ Knowledge becomes repeatable and reusable.
 
 ## Purpose
 
-Adopt validated knowledge across the operational ecosystem while enabling continuous improvement.
+Support controlled evolution of the Knowledge Platform across the JayaSwara ecosystem.
 
 ## Guiding Principles
 
-- Promote only validated knowledge.
+- Promote validated knowledge.
 - Preserve architectural integrity.
-- Continuous learning.
-- Controlled evolution.
+- Continuous improvement.
 - Reuse before reinvention.
+- Evolution without unnecessary redesign.
 
 ## Responsibilities
 
-- Review.
-- Approve.
-- Promote.
-- Maintain.
-- Improve.
+- Promote validated Knowledge Objects.
+- Maintain governance.
+- Expand platform capability.
+- Support organizational growth.
+- Enable AI collaboration.
 
 ## Inputs
 
-Validated organizational systems.
+Validated Knowledge Objects.
 
 ## Activities
 
 - Review
 - Promote
-- Maintain
-- Measure
 - Improve
+- Maintain
 
 ## Outputs
 
 - Organizational capability
+- AI-ready knowledge
 - Operational assets
-- Services
-- AI specialists
-- Automation opportunities
+- Intellectual property
 
 ## Deliverables
 
-- Promoted Standards
-- Service Assets
-- Operational Frameworks
-- Organizational Knowledge
+- Mature Knowledge Platform
+- Organizational Knowledge Assets
+- AI-assisted Knowledge System
 
 ## Entry Criteria
 
-Validated systems ready for adoption.
+Validated operational framework.
 
 ## Exit Criteria
 
-Knowledge is incorporated into the permanent operational ecosystem.
+Knowledge Platform becomes an integral organizational capability.
 
 ---
 
 # Section Governance Metadata
 
-| Section | Reviewed | Accepted | Promoted |
-|----------|:--------:|:--------:|:--------:|
-| Purpose | ☐ | ☐ | ☐ |
-| Capture | ☐ | ☐ | ☐ |
-| Clarify | ☐ | ☐ | ☐ |
-| Organize | ☐ | ☐ | ☐ |
-| Systematize | ☐ | ☐ | ☐ |
-| Scale | ☐ | ☐ | ☐ |
+| Section     | Reviewed | Accepted | Promoted |
+| ----------- | :------: | :------: | :------: |
+| Purpose     |    ☐     |    ☐     |    ☐     |
+| Capture     |    ☐     |    ☐     |    ☐     |
+| Clarify     |    ☐     |    ☐     |    ☐     |
+| Organize    |    ☐     |    ☐     |    ☐     |
+| Systematize |    ☐     |    ☐     |    ☐     |
+| Scale       |    ☐     |    ☐     |    ☐     |
