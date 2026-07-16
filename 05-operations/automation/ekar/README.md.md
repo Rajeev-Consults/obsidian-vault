@@ -9,6 +9,8 @@ EKAR is the enterprise-wide repository responsible for preserving, organizing, g
 
 It serves as the canonical source for all approved knowledge assets acquired externally or produced internally.
 
+EKAR v1.0 is the reference implementation for all Workflow Monk automation capabilities.
+
 ---
 
 ## Objectives
@@ -46,6 +48,7 @@ EKAR is initialized and maintained through PowerShell automation.
 Scripts are located in:
 
 assets/
+
 
 
 ---
