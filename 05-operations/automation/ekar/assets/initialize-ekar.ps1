@@ -66,8 +66,7 @@ Write-Host ""
 
 $Root = Read-Host "Enter EKAR Root Folder (Press Enter for default)"
 
-if ([string]::IsNullOrWhiteSpace($Root))
-{
+if ([string]::IsNullOrWhiteSpace($Root)) {
     $Root = $DefaultRoot
 }
 
@@ -78,8 +77,7 @@ Write-Host ""
 
 $Confirm = Read-Host "Proceed? (Y/N)"
 
-if ($Confirm.ToUpper() -ne "Y")
-{
+if ($Confirm.ToUpper() -ne "Y") {
     Write-Host ""
     Write-Host "Initialization cancelled."
     exit 1
@@ -89,14 +87,12 @@ if ($Confirm.ToUpper() -ne "Y")
 # Helper Function
 # ============================================================================
 
-function New-EKARFolder
-{
+function New-EKARFolder {
     param(
         [string]$Path
     )
 
-    if (!(Test-Path $Path))
-    {
+    if (!(Test-Path $Path)) {
         New-Item `
             -ItemType Directory `
             -Path $Path `
@@ -152,21 +148,18 @@ $Domains = @(
 # Repository Construction Functions
 # ============================================================================
 
-function New-DomainStructure
-{
+function New-DomainStructure {
     param(
         [string]$ParentPath,
         [string[]]$Types
     )
 
-    foreach($Type in $Types)
-    {
+    foreach ($Type in $Types) {
         $Base = Join-Path $ParentPath $Type
 
         New-EKARFolder $Base
 
-        foreach($Domain in $Domains)
-        {
+        foreach ($Domain in $Domains) {
             New-EKARFolder (Join-Path $Base $Domain)
         }
     }
@@ -181,10 +174,10 @@ Write-Host "Creating EKAR repository..."
 Write-Host ""
 
 $DocumentsRoot = Join-Path $Root "01-documents"
-$MediaRoot      = Join-Path $Root "02-media"
-$DataRoot       = Join-Path $Root "03-data"
-$SoftwareRoot   = Join-Path $Root "04-software"
-$ReferenceRoot  = Join-Path $Root "05-reference"
+$MediaRoot = Join-Path $Root "02-media"
+$DataRoot = Join-Path $Root "03-data"
+$SoftwareRoot = Join-Path $Root "04-software"
+$ReferenceRoot = Join-Path $Root "05-reference"
 
 New-EKARFolder $DocumentsRoot
 New-EKARFolder $MediaRoot
@@ -195,15 +188,21 @@ New-EKARFolder $ReferenceRoot
 New-EKARFolder (Join-Path $Root "06-miscellaneous")
 New-EKARFolder (Join-Path $Root "99-archives")
 
+#=============================================================================
+# Performance Diagnostic
+#============================================================================
+Write-Host ""
+Write-Host "Document Types : $($DocumentTypes.Count)"
+Write-Host "Domains        : $($Domains.Count)"
+Write-Host ""
+
 # ============================================================================
 # Documents
 # ============================================================================
 
 Write-Host "Creating Documents..."
 
-New-DomainStructure `
-    -ParentPath $DocumentsRoot `
-    -Types $DocumentTypes
+New-DomainStructure -ParentPath $DocumentsRoot -Types $DocumentTypes
 
 New-EKARFolder (Join-Path $DocumentsRoot "miscellaneous")
 
@@ -213,9 +212,7 @@ New-EKARFolder (Join-Path $DocumentsRoot "miscellaneous")
 
 Write-Host "Creating Media..."
 
-New-DomainStructure `
-    -ParentPath $MediaRoot `
-    -Types $MediaTypes
+New-DomainStructure -ParentPath $MediaRoot -Types $MediaTypes
 
 # ============================================================================
 # Data
@@ -223,9 +220,7 @@ New-DomainStructure `
 
 Write-Host "Creating Data..."
 
-New-DomainStructure `
-    -ParentPath $DataRoot `
-    -Types $DataTypes
+New-DomainStructure -ParentPath $DataRoot -Types $DataTypes
 
 # ============================================================================
 # Software
@@ -233,9 +228,7 @@ New-DomainStructure `
 
 Write-Host "Creating Software..."
 
-New-DomainStructure `
-    -ParentPath $SoftwareRoot `
-    -Types $SoftwareTypes
+New-DomainStructure -ParentPath $SoftwareRoot -Types $SoftwareTypes
 
 # ============================================================================
 # Reference
@@ -251,8 +244,7 @@ $DictionaryRoot = Join-Path $ReferenceRoot "dictionaries"
 
 New-EKARFolder $DictionaryRoot
 
-foreach($Item in $DictionaryTypes)
-{
+foreach ($Item in $DictionaryTypes) {
     New-EKARFolder (Join-Path $DictionaryRoot $Item)
 }
 
@@ -264,8 +256,7 @@ $EncyclopediaRoot = Join-Path $ReferenceRoot "encyclopedias"
 
 New-EKARFolder $EncyclopediaRoot
 
-foreach($Item in $EncyclopediaTypes)
-{
+foreach ($Item in $EncyclopediaTypes) {
     New-EKARFolder (Join-Path $EncyclopediaRoot $Item)
 }
 
@@ -277,8 +268,7 @@ $GlossaryRoot = Join-Path $ReferenceRoot "glossaries"
 
 New-EKARFolder $GlossaryRoot
 
-foreach($Item in $GlossaryTypes)
-{
+foreach ($Item in $GlossaryTypes) {
     New-EKARFolder (Join-Path $GlossaryRoot $Item)
 }
 
@@ -316,18 +306,16 @@ Write-Host $Root
 
 Write-Host ""
 
-if(Test-Path $Root)
-{
+if (Test-Path $Root) {
     $FolderCount = (Get-ChildItem `
-        -Path $Root `
-        -Directory `
-        -Recurse).Count
+            -Path $Root `
+            -Directory `
+            -Recurse).Count
 
     Write-Host "Folders Created : $FolderCount"
     Write-Host "Status          : SUCCESS"
 }
-else
-{
+else {
     Write-Host "Status          : FAILED"
     exit 1
 }
