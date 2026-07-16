@@ -24,6 +24,18 @@ Windows Version
 
 Permissions
 
+
+## Release status
+
+Current Version                                           v1.0.0
+
+Status                                                         Approved
+
+Validation                                                   Sandbox Deployment Successful
+
+Production Deployment                            Pending
+
+
 ## Parameters
 
 ## Output

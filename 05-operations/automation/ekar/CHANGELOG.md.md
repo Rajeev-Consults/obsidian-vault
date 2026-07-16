@@ -1,8 +1,13 @@
 # Changelog
 
-## v1.0
+## v1.0.0
 
-- Initial architecture
-- Initial taxonomy
-- Initial PowerShell bootstrap
-- Initial documentation
+### Initial Release
+
+- Implemented EKAR initialization automation.
+- Implemented enterprise folder taxonomy.
+- Added cybersecurity as a primary knowledge domain.
+- Standardized glossary taxonomy using enterprise domains.
+- Renamed language-reference to language-resources.
+- Successfully validated through sandbox deployment.
+- Approved for production deployment.

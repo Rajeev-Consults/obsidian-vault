@@ -190,12 +190,7 @@ $EncyclopediaTypes = @(
     "others"
 )
 
-$GlossaryTypes = @(
-    "artificial-intelligence",
-    "business",
-    "consulting",
-    "programming",
-    "others"
+$GlossaryTypes = $Domains
 )
 
 
@@ -337,7 +332,7 @@ foreach ($Item in $GlossaryTypes) {
 
 New-EKARFolder (Join-Path $ReferenceRoot "atlases")
 New-EKARFolder (Join-Path $ReferenceRoot "style-guides")
-New-EKARFolder (Join-Path $ReferenceRoot "language-reference")
+New-EKARFolder (Join-Path $ReferenceRoot "language-resources")
 
 #==============================================================================
 # Module 4
