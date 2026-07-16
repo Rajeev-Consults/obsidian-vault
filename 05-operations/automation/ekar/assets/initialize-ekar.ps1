@@ -140,6 +140,65 @@ $Domains = @(
     "miscellaneous"
 )
 
+$DocumentTypes = @(
+    "books",
+    "articles",
+    "research-papers",
+    "standards",
+    "manuals",
+    "reports",
+    "white-papers",
+    "case-studies"
+)
+
+$MediaTypes = @(
+    "images",
+    "audio",
+    "video",
+    "presentations"
+)
+
+$DataTypes = @(
+    "datasets",
+    "databases",
+    "spreadsheets",
+    "statistics"
+)
+
+$SoftwareTypes = @(
+    "source-code",
+    "scripts",
+    "tools",
+    "plugins",
+    "templates"
+)
+
+$DictionaryTypes = @(
+    "english",
+    "hindi",
+    "marathi",
+    "sanskrit",
+    "telugu",
+    "others"
+)
+
+$EncyclopediaTypes = @(
+    "general",
+    "history",
+    "science",
+    "technology",
+    "others"
+)
+
+$GlossaryTypes = @(
+    "artificial-intelligence",
+    "business",
+    "consulting",
+    "programming",
+    "others"
+)
+
+
 #==============================================================================
 # Module 3
 #==============================================================================
