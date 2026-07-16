@@ -44,6 +44,14 @@ Copyright (c) JayaSwara
 
 #>
 
+#=============================================================================
+# Set Default Location
+#=============================================================================
+
+param(
+    [string]$Root = "E:\Work\EKAR"
+)
+
 # ============================================================================
 # Version Information
 # ============================================================================
@@ -51,10 +59,8 @@ Copyright (c) JayaSwara
 $ScriptVersion = "1.0.0"
 
 # ============================================================================
-# Default Repository Location
+# Initialize Default Location
 # ============================================================================
-
-$DefaultRoot = "E:\Work\EKAR"
 
 Write-Host ""
 Write-Host "==============================================="
@@ -64,24 +70,9 @@ Write-Host " Version    : $ScriptVersion"
 Write-Host "==============================================="
 Write-Host ""
 
-$Root = Read-Host "Enter EKAR Root Folder (Press Enter for default)"
-
-if ([string]::IsNullOrWhiteSpace($Root)) {
-    $Root = $DefaultRoot
-}
-
-Write-Host ""
-Write-Host "Repository Location:"
+Write-Host "Repository:"
 Write-Host $Root
 Write-Host ""
-
-$Confirm = Read-Host "Proceed? (Y/N)"
-
-if ($Confirm.ToUpper() -ne "Y") {
-    Write-Host ""
-    Write-Host "Initialization cancelled."
-    exit 1
-}
 
 # ============================================================================
 # Helper Function
@@ -191,7 +182,7 @@ $EncyclopediaTypes = @(
 )
 
 $GlossaryTypes = $Domains
-)
+
 
 
 #==============================================================================
@@ -241,14 +232,6 @@ New-EKARFolder $ReferenceRoot
 
 New-EKARFolder (Join-Path $Root "06-miscellaneous")
 New-EKARFolder (Join-Path $Root "99-archives")
-
-#=============================================================================
-# Performance Diagnostic
-#============================================================================
-Write-Host ""
-Write-Host "Document Types : $($DocumentTypes.Count)"
-Write-Host "Domains        : $($Domains.Count)"
-Write-Host ""
 
 # ============================================================================
 # Documents
