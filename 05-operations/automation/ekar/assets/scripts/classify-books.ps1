@@ -79,19 +79,23 @@ foreach($Book in $Books)
 {
 
     $Title = $Book.Name.ToLower()
+	Write-Host $Title
 
     $MatchedKeyword = ""
     $Category = "Needs-Review"
 
     foreach($Rule in $Rules.Keys)
+{
+    if($Title -like "*$Rule*")
     {
-        if($Title -like "*$Rule*")
-        {
-            $MatchedKeyword = $Rule
-            $Category = $Rules[$Rule]
-            break
-        }
+        Write-Host "MATCH : $Rule"
+
+        $MatchedKeyword = $Rule
+        $Category = $Rules[$Rule]
+
+        break
     }
+}
 
     $Destination = ""
 
