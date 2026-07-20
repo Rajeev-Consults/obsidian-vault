@@ -1,0 +1,61 @@
+
+# EKAR-Taxonomy V1.0
+
+ResourceType,Domain,Keywords,Description
+books,artificial-intelligence,"ai|artificial intelligence|machine learning|deep learning|neural network|llm|large language model|gpt|chatgpt|copilot|github copilot|claude|gemini|ollama|langchain|rag|embedding|vector database|transformer|bert",Artificial Intelligence books
+books,programming,"programming|coding|software engineering|algorithm|algorithms|data structures|python|powershell|c|c++|c#|java|javascript|typescript|go|golang|rust|php|ruby|perl|swift|kotlin|scala",Programming books
+books,databases,"database|databases|sql|mysql|postgresql|postgres|sqlite|oracle|mongodb|nosql|redis",Database books
+books,operating-systems,"operating system|operating systems|windows|linux|ubuntu|unix|bash|shell scripting",Operating Systems books
+books,networking,"network|networking|tcp/ip|dns|routing|switching|ccna|cisco",Networking books
+books,cybersecurity,"cybersecurity|security|ethical hacking|penetration testing|malware|cryptography|forensics",Cybersecurity books
+books,cloud-computing,"cloud|aws|amazon web services|azure|google cloud|gcp",Cloud Computing books
+books,devops,"devops|docker|kubernetes|terraform|ansible|jenkins|github actions|ci/cd",DevOps books
+books,quantum-computing,"quantum computing|quantum computer|quantum algorithm|qubit|qiskit|superposition|entanglement",Quantum Computing books
+books,mathematics,"mathematics|math|algebra|geometry|trigonometry|calculus",Mathematics books
+books,statistics,"statistics|statistical|probability|regression|bayesian|sampling|hypothesis testing|data analysis",Statistics books
+books,systems-thinking,"systems thinking|systems theory|cybernetics|system dynamics|complex systems|complexity|feedback loop|fifth discipline",Systems Thinking books
+books,knowledge-management,"knowledge management|knowledge base|pkm|personal knowledge management|obsidian|zotero|second brain|note taking|knowledge graph",Knowledge Management books
+books,workflow,"workflow|workflow monk|business process|process improvement|bpmn|lean|six sigma|automation",Workflow books
+books,management,"management|leadership|strategy|consulting|operations|organizational behavior",Management books
+books,project-management,"project management|project|agile|scrum|kanban|pmp",Project Management books
+books,finance,"finance|financial|accounting|investment|investing|economics|banking|valuation",Finance books
+books,marketing,"marketing|branding|seo|advertising|digital marketing|copywriting",Marketing books
+books,sales,"sales|selling|negotiation",Sales books
+books,psychology,"psychology|behavioral psychology|cognitive psychology|behaviour|behavior|habits",Psychology books
+books,philosophy,"philosophy|ethics|logic|stoicism",Philosophy books
+books,religion,"religion|hinduism|veda|vedas|upanishad|upanishads|bhagavad gita|gita|vedanta|yoga|buddhism",Religion books
+books,history,"history|civilization|ancient history|world history",History books
+books,law,"law|legal|constitution|contract law",Law books
+books,medicine,"medicine|medical|anatomy|physiology|health",Medical books
+books,education,"education|learning|teaching|pedagogy",Education books
+books,language,"language|english|hindi|sanskrit|grammar|linguistics",Language books
+books,writing,"writing|grammar|communication|technical writing|authoring",Writing books
+books,design,"design|graphic design|ui|ux|typography",Design books
+books,architecture,"architecture|system design|enterprise architecture",Architecture books
+books,fiction,"fiction|novel|novels|story|stories|literature",Fiction books
+books,comics,"comic|comics|graphic novel|manga",Comic books
+books,poetry,"poetry|poem|poems|verse",Poetry books
+books,humour,"humour|humor|jokes|cartoon|cartoons|satire",Humour books
+books,cookbooks,"cookbook|cookbooks|cooking|recipe|recipes|culinary",Cookbooks
+articles,*,,Generic article classification
+research-papers,*,,Generic research paper classification
+reports,*,,Generic report classification
+standards,*,,Standards and specifications
+manuals,*,,Manuals
+guides,*,,Guides
+whitepapers,*,,White papers
+videos,*,,Videos
+audio,*,,Audio
+presentations,*,,Presentations
+images,*,,Images
+datasets,*,,Datasets
+source-code,*,,Source code
+spreadsheets,*,,Spreadsheets
+templates,*,,Templates
+checklists,*,,Checklists
+dictionaries,reference,"dictionary|lexicon",Dictionary resources
+encyclopedias,reference,"encyclopedia|encyclopaedia",Encyclopedias
+glossaries,reference,"glossary|terminology",Glossaries
+atlases,reference,"atlas",Atlases
+language-resources,reference,"phrasebook|language reference",Language resources
+style-guides,reference,"style guide|style manual",Style guides
