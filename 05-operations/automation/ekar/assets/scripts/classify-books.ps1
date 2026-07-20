@@ -37,9 +37,9 @@ $ErrorActionPreference = "Stop"
 # Configuration
 # --------------------------------------------------------------------------------------------------
 
-$BooksFile      = ".\books.csv"
-$TaxonomyFile   = ".\ekar-taxonomy.csv"
-$OutputFile     = ".\classified-books.csv"
+$BooksFile      = "E:\Work\EKAR\03-data\books.csv"
+$TaxonomyFile   = "E:\Work\EKAR\03-data\\ekar-taxonomy.csv"
+$OutputFile     = "E:\Work\EKAR\03-data\\classified-books.csv"
 
 Write-Host ""
 Write-Host "============================================================" -ForegroundColor Cyan
