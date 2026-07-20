@@ -71,24 +71,28 @@ $Rules = @{
 # LOAD CSV
 # -------------------------------------------------------------------------
 
-$Books = Import-Csv $CsvFile | Select-Object -First 10
+$Books = Import-Csv $CsvFile |
+Where-Object {
+    $_.Name -match "python|sql|finance|marketing|gita|vedanta|artificial"
+} |
+Select-Object -First 10
 
 $Results = @()
 
 foreach($Book in $Books)
 {
 
-    $Title = $Book.Name.ToLower()
-	Write-Host $Title
+    $SearchText = ($Book.DirectoryName + " " + $Book.Name).ToLower()
+	Write-Host $SearchText
 
     $MatchedKeyword = ""
     $Category = "Needs-Review"
 
     foreach($Rule in $Rules.Keys)
 {
-    if($Title -like "*$Rule*")
+    if($SearchText -like "*$Rule*")
     {
-        Write-Host "MATCH : $Rule"
+        Write-Host "MATCHED : $Rule"
 
         $MatchedKeyword = $Rule
         $Category = $Rules[$Rule]
