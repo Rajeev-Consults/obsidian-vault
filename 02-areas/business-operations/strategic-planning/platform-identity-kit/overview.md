@@ -61,3 +61,27 @@ Website
 ↓
 
 Future Public Presence
+
+---
+[[positioning]]
+[[value-proposition]]
+[[target-clients]]
+[[service-domains]]
+[[engagement-principles]]
+[[workflow-monk]]
+[[keywords]]
+[[platform-variants]]
+[[portfolio-categories]]
+[[signature-themes]]
+[[version-1]]
+[[version-2]]
+[[version-3]]
+[[working-notes]]
+
+## Outward Links
+
+[[service-catalog]]
+[[pricing-and-commercials]]
+[[workflow-monk-framework]]
+
+
