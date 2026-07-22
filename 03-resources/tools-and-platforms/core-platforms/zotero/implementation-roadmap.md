@@ -80,6 +80,6 @@ Implementation follows architectural readiness rather than technological availab
 
 ## Works With
 
-- [[overview]]
+- [[03-resources/tools-and-platforms/core-platforms/zotero/overview]]
 
 ## Enables

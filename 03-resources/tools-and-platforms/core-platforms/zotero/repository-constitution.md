@@ -83,7 +83,7 @@ Other systems create value from knowledge.
 
 ## Works With
 
-- [[overview]]
+- [[03-resources/tools-and-platforms/core-platforms/zotero/overview]]
 
 ## Enables
 
