@@ -16,3 +16,10 @@
 
 These values represent Version 1 commercial baselines and will evolve through market experience.
 
+---
+
+[[pricing-philosophy]]
+[[service-domains]]
+[[service-catalog]]
+[[client-segments]]
+[[version-1]]

@@ -13,3 +13,11 @@
 
 Version 1 prioritizes clients with shorter sales cycles and greater alignment to Workflow Monk services.
 
+
+---
+
+[[target-clients]]
+[[service-pricing]]
+[[negotiation-policy]]
+[[version-1]]
+

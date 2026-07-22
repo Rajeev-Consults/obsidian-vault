@@ -24,3 +24,17 @@ Transform ideas into practical systems that improve the way organizations work.
 - Workflow Monk methodology
 - Documentation-driven approach
 - Sustainable operational improvement
+
+---
+
+[[positioning]]
+[[target-clients]]
+[[service-domains]]
+[[engagement-principles]]
+[[signature-themes]]
+[[version-1]]
+
+
+## Outward Links
+
+[[service-catalog]]

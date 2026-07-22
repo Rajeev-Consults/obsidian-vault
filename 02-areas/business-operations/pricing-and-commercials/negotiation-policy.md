@@ -18,3 +18,13 @@
 - Reduce scope before reducing value.
 - Maintain professional positioning.
 - Decline engagements that fall below sustainable commercial value.
+
+
+---
+
+[[pricing-philosophy]]
+[[service-pricing]]
+[[client-segments]]
+[[commercial-guidelines]]
+[[version-1]]
+

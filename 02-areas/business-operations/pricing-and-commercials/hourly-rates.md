@@ -10,3 +10,12 @@
 | LinkedIn | Proposal Based | Proposal Based | Proposal Based |
 
 These rates will be reviewed periodically based on market feedback and platform credibility.
+
+
+---
+
+[[pricing-philosophy]]
+[[service-pricing]]
+[[negotiation-policy]]
+[[version-1]]
+

@@ -33,3 +33,7 @@
 - Documentation Systems
 - Operational Knowledge
 
+---
+
+[[platform-variants]]
+[[version-1]]

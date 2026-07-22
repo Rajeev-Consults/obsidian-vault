@@ -11,3 +11,8 @@
 
 Projects are classified according to the primary capability they demonstrate.
 
+---
+
+[[service-domains]]
+[[workflow-monk]]
+[[version-1]]

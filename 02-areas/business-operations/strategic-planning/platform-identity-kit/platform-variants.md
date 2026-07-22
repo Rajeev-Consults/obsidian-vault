@@ -11,3 +11,10 @@
 
 Each platform presents the same identity while adapting tone and emphasis to suit its audience.
 
+---
+
+[[keywords]]
+[[positioning]]
+[[value-proposition]]
+[[version-1]]
+

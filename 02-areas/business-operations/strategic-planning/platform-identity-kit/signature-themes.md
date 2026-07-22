@@ -13,3 +13,9 @@ The following ideas consistently represent the JayaSwara philosophy.
 
 These themes should naturally appear across public communication without becoming repetitive.
 
+---
+
+[[positioning]]
+[[value-proposition]]
+[[workflow-monk]]
+[[version-1]]

@@ -46,3 +46,10 @@ Organize before improving.
 
 Improve before transforming.
 
+---
+
+[[workflow-monk]]
+[[service-domains]]
+[[pricing-philosophy]]
+[[commercial-guidelines]]
+[[version-1]]

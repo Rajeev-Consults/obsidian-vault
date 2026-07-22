@@ -38,3 +38,13 @@ Seek long-term trusted relationships over one-time transactions.
 ## Continuous Improvement
 
 Review pricing after meaningful market feedback and completed engagements.
+
+
+---
+
+[[pricing-philosophy]]
+[[negotiation-policy]]
+[[engagement-principles]]
+[[workflow-monk]]
+[[version-1]]
+

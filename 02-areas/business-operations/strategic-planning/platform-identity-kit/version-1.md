@@ -51,3 +51,16 @@ Establish a professional commercial presence across selected platforms using exi
 - Initial portfolio established
 - Ready for commercial engagement
 
+---
+
+[[overview]]
+[[positioning]]
+[[value-proposition]]
+[[target-clients]]
+[[service-domains]]
+[[engagement-principles]]
+[[workflow-monk]]
+[[keywords]]
+[[platform-variants]]
+[[portfolio-categories]]
+[[signature-themes]]

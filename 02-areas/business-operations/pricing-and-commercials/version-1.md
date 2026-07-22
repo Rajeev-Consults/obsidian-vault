@@ -32,3 +32,17 @@ Provide sufficient commercial guidance to launch JayaSwara across freelancing pl
 - Payment Terms
 
 These capabilities will be developed after initial market validation.
+
+
+---
+
+[[pricing-philosophy]]
+[[hourly-rates]]
+[[service-pricing]]
+[[negotiation-policy]]
+[[client-segments]]
+[[commercial-guidelines]]
+[[working-notes]]
+[[overview]]
+
+

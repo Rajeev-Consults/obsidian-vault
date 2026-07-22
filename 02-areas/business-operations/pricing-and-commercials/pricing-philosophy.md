@@ -19,3 +19,13 @@ Workflow Monk provides the primary estimation framework through the five engagem
 - Scale
 
 Projects may involve one or multiple stages depending upon client requirements.
+
+
+---
+
+[[hourly-rates]]
+[[service-pricing]]
+[[negotiation-policy]]
+[[commercial-guidelines]]
+[[engagement-principles]]
+[[version-1]]

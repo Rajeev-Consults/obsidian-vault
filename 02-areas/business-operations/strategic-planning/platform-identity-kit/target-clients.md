@@ -26,3 +26,14 @@
 ## Engagement Preference
 
 Organizations seeking practical improvement rather than unnecessary transformation.
+
+
+---
+
+[[positioning]]
+[[value-proposition]]
+[[service-domains]]
+[[client-segments]]
+[[version-1]]
+
+

@@ -56,3 +56,22 @@ Active Project
 ↓
 
 Invoice
+
+
+---
+
+[[pricing-philosophy]]
+[[hourly-rates]]
+[[service-pricing]]
+[[negotiation-policy]]
+[[client-segments]]
+[[commercial-guidelines]]
+[[version-1]]
+[[working-notes]]
+
+
+## External Links
+
+[[platform-identity-kit]]
+[[service-catalog]]
+

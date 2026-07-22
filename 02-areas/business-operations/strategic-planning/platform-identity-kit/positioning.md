@@ -23,3 +23,17 @@ Where Ideas Become Systems
 JayaSwara helps founders, professionals, consultants, and growing businesses transform scattered information, undocumented processes, and disconnected tools into structured systems that improve clarity, consistency, and execution.
 
 The focus is on creating practical systems that support sustainable business operations rather than introducing unnecessary complexity.
+
+---
+
+[[overview]]
+[[value-proposition]]
+[[target-clients]]
+[[service-domains]]
+[[signature-themes]]
+[[version-1]]
+
+## Outward Links
+
+[[brand-identity]]
+[[website-jayaswara]]

@@ -31,3 +31,13 @@ Application of AI to enhance workflows, documentation, and operational efficienc
 ---
 
 Detailed service specifications are maintained within the Service Catalog.
+
+
+---
+
+[[service-catalog]]
+[[workflow-monk]]
+[[engagement-principles]]
+[[portfolio-categories]]
+[[version-1]]
+
