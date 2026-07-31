@@ -53,7 +53,7 @@ Establish a professional commercial presence across selected platforms using exi
 
 ---
 
-[[overview]]
+[[02-areas/business-operations/strategic-planning/platform-identity-kit/overview]]
 [[positioning]]
 [[value-proposition]]
 [[target-clients]]

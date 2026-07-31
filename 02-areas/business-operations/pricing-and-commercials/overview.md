@@ -67,7 +67,7 @@ Invoice
 [[client-segments]]
 [[commercial-guidelines]]
 [[version-1]]
-[[working-notes]]
+[[02-areas/business-operations/pricing-and-commercials/working-notes]]
 
 
 ## External Links

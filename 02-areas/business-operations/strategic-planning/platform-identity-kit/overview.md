@@ -76,7 +76,7 @@ Future Public Presence
 [[version-1]]
 [[version-2]]
 [[version-3]]
-[[working-notes]]
+[[02-areas/business-operations/strategic-planning/platform-identity-kit/working-notes]]
 
 ## Outward Links
 

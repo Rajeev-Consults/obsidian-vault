@@ -42,7 +42,7 @@ These capabilities will be developed after initial market validation.
 [[negotiation-policy]]
 [[client-segments]]
 [[commercial-guidelines]]
-[[working-notes]]
-[[overview]]
+[[02-areas/business-operations/pricing-and-commercials/working-notes]]
+[[02-areas/business-operations/pricing-and-commercials/overview]]
 
 

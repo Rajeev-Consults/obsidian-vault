@@ -26,7 +26,7 @@ The focus is on creating practical systems that support sustainable business ope
 
 ---
 
-[[overview]]
+[[02-areas/business-operations/strategic-planning/platform-identity-kit/overview]]
 [[value-proposition]]
 [[target-clients]]
 [[service-domains]]
