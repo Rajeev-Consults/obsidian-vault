@@ -25,3 +25,15 @@ Research
 References
 
 Temporary Information
+
+
+---
+
+ [[Master Platform Profile]]
+- [[overview]] _(from Platform Identity Kit)_
+- [[positioning]]
+- [[value-proposition]]
+- [[target-clients]]
+- [[service-domains]]
+- [[workflow-monk]]
+

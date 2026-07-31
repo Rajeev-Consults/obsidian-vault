@@ -31,3 +31,15 @@ Approved On
 ---
 
 # Change History
+
+
+---
+
+- [[Master Platform Profile]]
+- [[overview]] _(from Platform Identity Kit)_
+- [[positioning]]
+- [[value-proposition]]
+- [[target-clients]]
+- [[service-domains]]
+- [[workflow-monk]]
+
