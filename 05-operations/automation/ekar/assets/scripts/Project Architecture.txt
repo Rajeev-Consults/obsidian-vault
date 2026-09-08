@@ -1,0 +1,6 @@
+Project architecture: 
+AnythingLLM
+Ollama
+Granite
+Qwen
+Nomic roles
