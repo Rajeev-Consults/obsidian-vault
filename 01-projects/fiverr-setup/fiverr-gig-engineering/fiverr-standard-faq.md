@@ -11,3 +11,11 @@
 
 ### FAQ 3 — Do you redesign or automate the process?
 
+> **This Gig focuses on understanding, documenting, and analyzing the current process. Redesign, automation, and implementation are separate services.**
+
+
+### FAQ 4 — Can you handle a complex process?
+
+> **Yes. Please share the process and its approximate scope before ordering so I can confirm the appropriate package.**
+
+
