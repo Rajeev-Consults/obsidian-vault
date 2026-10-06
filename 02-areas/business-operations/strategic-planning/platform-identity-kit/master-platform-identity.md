@@ -14,7 +14,7 @@
 
 ## Related Identity Assets
 
-- [[overview]]
+- [[02-areas/business-operations/strategic-planning/platform-identity-kit/overview]]
 - [[positioning]]
 - [[value-proposition]]
 - [[target-clients]]

@@ -36,7 +36,7 @@ Approved On
 ---
 
 - [[Master Platform Profile]]
-- [[overview]] _(from Platform Identity Kit)_
+- [[50-incubation/contra/overview]] _(from Platform Identity Kit)_
 - [[positioning]]
 - [[value-proposition]]
 - [[target-clients]]
