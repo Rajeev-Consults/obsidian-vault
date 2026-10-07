@@ -6,6 +6,19 @@
 
 CRM is one example of a cross-vault lifecycle, not the whole architecture exercise. The same mapping and ownership decisions apply to templates, platform/LinkedIn/Website governance, service and capability references, and mobile operating materials. Each item should have an identified owner, execution counterpart (if needed), sync treatment, and mobile-use classification.
 
+## Decisions clarified by the ecosystem architect
+
+- The three vaults co-exist and are interconnected; each has a CRM area with a distinct role.
+- A proposal/application is not an onboarded client. An **onboarded client** is one who has awarded a gig, job, project, assignment, or contract.
+- Proposal-specific CRM details remain in Active-Projects. Proposal SOPs, MOCs, and templates belong in the Control Center.
+- When a relationship exists, client details are copied into both Active-Projects and ObsidianVault. The copy is deliberate, not automatic. Active-Projects feedback informs a special CRM rating calibrated in ObsidianVault for future engagement and pricing decisions.
+- The Knowledge Vault backs up data from both operating vaults. A full capture is planned every six months or year; the first run is after the sprint.
+- Agreements/MoUs are represented in all three vaults according to each vault's internal rules; exact file/record handling remains to be defined.
+- The first platform set is Upwork, Fiverr, Contra, Freelancer, LinkedIn, and the JayaSwara website. Mapped execution material should be available through Active-Projects mobile sync to support client visits, meetings, and capability/portfolio conversations.
+- Process Mapping is first. The sprint uses Capture → Clarify → Organize → Systematize → Scale, with each step treated as a potential income-generation opportunity.
+- The template set is still being developed. Commonality and vault-specific differences will be decided during the sprint as actual use cases emerge.
+- Capability/evidence fields will be derived from capabilities defined across platforms, including the Tier 1/2/3 focus already outlined in Fiverr planning; this is not yet a finalized general register.
+
 ## Architectural frame
 
 The three vaults each have a CRM folder, but each folder serves a distinct lifecycle role. A CRM folder in each vault does not mean three independently edited client databases.
@@ -18,9 +31,12 @@ The three vaults each have a CRM folder, but each folder serves a distinct lifec
 
 ### Proposed source of truth by record
 
-- **Before onboarding:** Active-Projects owns the live lead/opportunity record.
-- **After onboarding:** ObsidianVault owns the client master record. Active-Projects retains the execution record needed to deliver work, with a link to the control-center client master.
-- **Backup/history:** Knowledge Vault holds the retained last-state copy or approved moved record, with origin, timestamp, version/hash, and disposition recorded.
+- **Proposal/application only:** Active-Projects owns proposal-specific CRM details; these do not enter the Control Center CRM. The Control Center owns reusable proposal methods, SOPs, MOCs, and templates.
+- **Once a relationship exists:** client details are deliberately copied into both Active-Projects and ObsidianVault. Exact shared fields and update rules will be defined during CRM schema work.
+- **Onboarding threshold:** an award of a gig, job, project, assignment, or contract marks the person/organization as an onboarded client. This is distinct from the earlier relationship-copy point.
+- **Control-center CRM:** maintains the client context and calibrated CRM rating; Active-Projects feedback informs future engagement and pricing decisions there.
+- **Active execution:** Active-Projects remains the entry point and working environment for platform activity, proposals, delivery, client interaction, and project details.
+- **Backup/history:** Knowledge Vault receives scheduled captures from both Active-Projects and ObsidianVault, plus risk-triggered snapshots as defined below.
 - **Service, capability, pricing policy, and reusable methods:** ObsidianVault remains canonical. Active-Projects receives only approved execution references. Knowledge receives a snapshot or curated move when decided.
 
 This assigns ownership by lifecycle stage and record type, not by assuming that the same note should be freely edited in all three places.
@@ -67,7 +83,7 @@ The sales record begins here. On conversion, update status and create/register t
 └── transfer-register/
 ```
 
-Adapt the existing empty folders rather than replacing the CRM concept. The client master records onboarding and links back to the originating Active-Projects record, active delivery, quotation/final price, and agreement location. Whether pre-onboarding leads remain indexed here is an open decision; they should not become a second competing record.
+Adapt the existing empty folders rather than replacing the CRM concept. Create the Control Center client record when a relationship exists, by deliberate copy from Active-Projects. Proposal-specific CRM details remain in Active-Projects. Once an award is made, mark the client as onboarded. Calibrate the Control Center CRM rating using feedback from Active-Projects. Shared fields, rating rubric, and update cadence remain to be defined.
 
 ### Knowledge Vault — retained state and archive
 
@@ -85,14 +101,16 @@ A snapshot is a recoverable last state, not a live operational copy. A moved rec
 
 ## End-to-end workflow
 
-1. **Capture in Active-Projects.** Create a stable record ID for a platform application, lead, or opportunity. Record platform, service interest, status, next action, and links. Keep one canonical live opportunity record.
-2. **Qualify against control-center sources.** Use the relevant service-catalog, capability/evidence, delivery-method, and pricing references. ObsidianVault remains canonical for these policies and claims. Copy only the approved subset into Active-Projects using reviewed one-way reference refreshes.
-3. **Quote and negotiate in context.** Store each dated/versioned quotation in the Active opportunity. Record scope, currency, assumptions, validity, and status. On acceptance, record final negotiated pricing and its variance/reason; do not alter the canonical pricing policy to represent a client exception.
-4. **Onboard and register.** After the defined onboarding trigger is met, create/update the canonical client master in ObsidianVault `09-crm/clients`. Link the origin record and Active-Projects delivery record. Record which source owns each field/document.
-5. **Execute in Active-Projects.** Keep working notes, project tasks, delivery resources, and operational follow-ups in the execution vault. Control center holds the onboarded-client overview and links/decision context.
-6. **Checkpoint to Knowledge.** At agreed events (onboarding, material commercial/relationship change, closeout, planned archive, and always before deletion), capture the required last state from each source vault. Record source path, event, timestamp, version/hash, included attachments, and verification result in the manifest.
-7. **Move or delete only after verification.** Verify the snapshot can be opened and matches the source state; record the transfer/deletion decision in Knowledge. Keep a pointer/tombstone at the source to prevent confusion or accidental re-creation. No automatic deletion in V1.
-8. **Close and learn.** Close delivery and update the client master. Promote only generalized, approved, non-confidential learning into ObsidianVault methods/services. Retain the Knowledge snapshot according to the agreed policy.
+1. **Capture in Active-Projects.** Record platform applications, proposals, and opportunities here. Proposal-specific CRM details stay here. Use stable IDs and link platform, service, status, and next action.
+2. **Relationship begins.** When a relationship exists, deliberately copy the agreed client details into the matching Control Center CRM record. This may precede an award; it does not transfer proposal-specific CRM detail.
+3. **Qualify and prepare.** Use Control Center service, capability/evidence, SOP, pricing, and governance sources. The mapped operational subset is available in Active-Projects and on mobile. Track the five Process Mapping steps as work and potential income opportunities.
+4. **Quote and negotiate in Active-Projects.** Keep dated/versioned proposal and quotation details in the opportunity record. Reusable proposal procedures/templates remain in ObsidianVault.
+5. **Award and onboard.** An awarded gig/job/project/assignment/contract sets onboarded status. Ensure the Control Center client record reflects the award and links to the Active-Projects execution record. Calibrate the Control Center CRM rating using Active-Projects feedback.
+6. **Execute and update.** Keep live project work in Active-Projects. Send agreed client feedback and relationship updates to the Control Center record for rating and future engagement/pricing decisions. Define shared fields and update cadence during schema work.
+7. **Back up both source vaults.** Perform the first backup run when the sprint is complete, then a full capture every six months or year (recommended starting cadence: six months). Capture agreed data from both Active-Projects and ObsidianVault into Knowledge, with source, date, scope, and verification recorded.
+8. **Handle high-risk changes.** Take an additional targeted snapshot before deleting or moving source notes and before major restructuring. Consider a targeted snapshot after a material signed-agreement or commercial change if waiting for the periodic run creates unacceptable recovery loss. No automatic deletion in V1.
+9. **Verify before deletion/move.** Confirm the Knowledge copy is readable and complete, record the decision and snapshot reference, then delete/move only under the internal rules of the source vault. Keep a pointer/transfer record when appropriate.
+10. **Close and learn.** Update client records in their assigned vaults; promote generalized, approved learning into Control Center methods/services. The next scheduled Knowledge capture preserves the resulting vault states.
 
 ## Service, capability, and commercial mapping
 
@@ -102,7 +120,7 @@ A snapshot is a recoverable last state, not a live operational copy. A moved rec
 | Capability and evidence mapping | Execution checklist/evidence links relevant to the selected service and platform application | Client master/engagement notes identify capability commitments and evidence links | Preserve last-state snapshots at lifecycle checkpoints; keep reusable learning separate from private client evidence |
 | Pricing philosophy, rates, service pricing, negotiation and segment guidance | Approved commercial reference; opportunity quotations and final negotiated pricing remain transaction records | Client master records commercial outcome and links to quotation/final terms | Snapshot client-specific quote/final terms and approved policy versions as required; protect confidential content |
 | Platform profile and positioning | Application and response records per platform | Client record links the origin platform and conversion | Retain selected source state if the record is archived or deleted |
-| Agreement/MoU | Execution record contains the working agreement link/copy according to policy | Client master maintains agreement status, date, parties, and secure location reference | Capture last state before any deletion or move, subject to agreed access/retention controls |
+| Agreement/MoU | Represented/stored according to Active-Projects rules | Represented/stored according to Control Center rules | Represented/stored according to Knowledge backup rules; capture and verify as part of the agreed backup process |
 
 **Current inventory caveat:** the control center has service-catalog and pricing notes, plus a Gig 1 audit and capability template. A general capability register was not found. Confirm whether the Gig 1 audit is approved/current before using it as a capability source; if needed, establish the general map in ObsidianVault first.
 
@@ -166,23 +184,27 @@ This register prevents the CRM map from becoming a separate set of rules and let
 
 ## V1 limit and release sequence
 
-Keep V1 human-reviewed and traceable. Do not start with automatic bidirectional sync, automatic record promotion, or automatic deletion. A sensible pilot is one platform and one service, with the minimum governance/SOP/template references needed to support that work, exercised through application → quotation → conversion/onboarding → client master → delivery link → Knowledge snapshot. Review the same selected execution references on mobile during a sanitized client-work simulation. Expand after that path, mobile usability, and backup verification are accepted.
+Keep V1 human-reviewed and traceable. Do not start with automatic bidirectional sync, automatic record promotion, or automatic deletion. A sensible pilot is one platform and Process Mapping, with the minimum governance/SOP/template references needed to support that work, exercised through application/proposal → relationship details copied to both operating vaults → award/onboarding → Control Center rating informed by Active-Projects feedback → delivery → Knowledge backup. Review selected execution references on mobile during client-work preparation. Expand after the cross-vault path, mobile usability, and backup verification are accepted.
 
-1. **Design approval:** confirm vault roles, record ownership, client ID scheme, privacy, retention, agreement storage, and mobile boundaries.
+1. **Design approval:** define when a relationship begins, the award-based onboarding trigger, shared client fields, Control Center CRM rating rubric, client ID scheme, privacy, retention, agreement rules, and mobile boundaries.
 2. **Cross-vault inventory:** map CRM, templates, platform/LinkedIn/Website governance, services, capabilities, SOPs, and principles; identify canonical owners and mobile/client-facing classifications.
 3. **Reference and template decisions:** select the initial execution copy set; compare template functions and decide what is common, distinct, or linked.
 4. **CRM skeleton:** create the three CRM areas and indexes; adapt the existing control-center `09-crm` scaffold and Active-Projects lifecycle without broad restructuring.
 5. **Sample lifecycle:** use fictional/sanitized data; verify cross-vault links, transfer/backup manifests, selected mobile references, and client-facing navigation.
-6. **Pilot release:** process one real opportunity only after the sample and access/backup boundaries are approved.
-7. **Review and scale:** adjust from observed use; then extend to other platforms, services, templates, SOPs, and Website/LinkedIn work.
+6. **Initial Knowledge backup:** after sprint completion, capture the agreed data/snapshots from both operating vaults and verify recovery before any planned deletion/move.
+7. **Pilot release:** process one real opportunity only after the sample and access/backup boundaries are approved.
+8. **Review and scale:** adjust from observed use; then extend to other platforms, services, templates, SOPs, and Website/LinkedIn work.
 
 ## Decisions to settle together
 
-- What exact event makes a record an “onboarded client” and transfers ownership to ObsidianVault?
-- After onboarding, which client details remain as a live working record in Active-Projects, and which are links to the control-center master?
-- Should pre-onboarding leads/prospects also appear in ObsidianVault, or remain only in Active-Projects until conversion?
-- Which Knowledge Vault data is copied as backup, and which records may be moved? How are snapshots named, verified, and retained?
-- Which service and platform form the pilot? Is Process Mapping still first?
+- What specifically constitutes “a relationship” for copying client details to both Active-Projects and ObsidianVault, and which fields are copied?
+- How is the Control Center CRM rating scored, who updates it, and what Active-Projects feedback informs it?
+- Which proposal metadata, if any, may be summarized in Control Center without bringing proposal-specific CRM details into that vault?
+- Is the periodic Knowledge capture a full-vault copy or a defined set of vault data? Which files/attachments are in scope?
+- Should the full Knowledge backup cadence begin at six months (recommended) or one year, and what retention/versioning rules apply?
+- Which high-risk changes require an immediate targeted snapshot beyond the periodic schedule?
+- How should all-three-vault agreement/MoU representation work under each vault’s internal rules?
+- Process Mapping is first. Which of Upwork, Fiverr, Contra, Freelancer, LinkedIn, or the website is the first pilot channel?
 - Which platform, LinkedIn, and Website governance notes are required during execution and appropriate for mobile access?
 - Which services, capabilities, SOPs, and principles are safe and useful as client-front-ending references, and which remain internal-only?
 - Which templates should share structure across vaults, which should remain distinct, and which need only a link or mobile-ready derivative?
